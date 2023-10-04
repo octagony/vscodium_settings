@@ -1,6 +1,8 @@
 {
 	//Window
 	"window.zoomLevel": 1,
+	// Menubar Visibility (VSCODE)
+	"window.menuBarVisibility": "toggle",
 
 	//Editor
 	"editor.tabSize": 2,
@@ -36,9 +38,6 @@
 	"editor.hideCursorInOverviewRuler": true,
 	//Editor settings for formatting
 	"editor.formatOnSave": true,
-	"editor.codeActionsOnSave": {
-		"source.organizeImports": true
-	},
 
 	//Workbench
 	"workbench.colorTheme": "Catppuccin Mocha",
@@ -107,5 +106,8 @@
 		"angular",
 		"json",
 		"yml"
-	]
+	],
+
+	// Telemetry (VSCODE)
+	"telemetry.telemetryLevel": "off"
 }
